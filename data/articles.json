@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "fix-windows-update-errors",
+    "title": "How to Fix Common Windows Update Errors",
+    "category": "Windows",
+    "read_time": "7 min read",
+    "description": "Work through practical checks for stuck downloads, failed updates, and repeated Windows Update errors.",
+    "intro": "Windows updates can fail because of a temporary service issue, low storage, damaged system files, or a connection problem. Start with low-risk checks and move on only when needed.",
+    "steps": [
+      {
+        "heading": "Restart and check the basics",
+        "body": "Save your work and restart the PC. Confirm the internet connection is stable and date and time are correct. Disconnect a VPN temporarily if it appears to interrupt the update, then retry."
+      },
+      {
+        "heading": "Check available storage",
+        "body": "Open Settings → System → Storage and make room if the system drive is nearly full. Remove only files you recognize; back up important data before deleting personal files."
+      },
+      {
+        "heading": "Run the Windows Update troubleshooter",
+        "body": "Open Settings and search for Troubleshoot settings. Run the Windows Update troubleshooter if available in your Windows version, then follow its recommended actions."
+      },
+      {
+        "heading": "Repair system files",
+        "body": "Open Terminal or Command Prompt as administrator and run DISM /Online /Cleanup-Image /RestoreHealth. When it finishes, run sfc /scannow. Let each command complete before restarting."
+      },
+      {
+        "heading": "If the error continues",
+        "body": "Write down the exact error code and search Microsoft Support for that code and your Windows version. Avoid third-party driver-updater utilities and do not disable security software permanently."
+      }
+    ],
+    "takeaway": "Record the exact error code before trying advanced fixes."
+  },
+  {
+    "slug": "fix-wifi-not-working-windows",
+    "title": "How to Fix Wi-Fi Not Working on Windows",
+    "category": "Windows",
+    "read_time": "6 min read",
+    "description": "Find out whether the problem is your router, Windows settings, or the wireless adapter.",
+    "intro": "When Wi-Fi stops working, first identify whether other devices can connect. This helps separate a router or internet issue from a problem on one PC.",
+    "steps": [
+      {
+        "heading": "Test another device",
+        "body": "Connect a phone or another computer to the same Wi-Fi. If all devices are offline, restart the router using its normal power procedure and contact your internet provider if needed."
+      },
+      {
+        "heading": "Toggle Wi-Fi and Airplane mode",
+        "body": "Make sure Airplane mode is off and Wi-Fi is on. Disconnect and reconnect to the network, then restart the PC."
+      },
+      {
+        "heading": "Forget and reconnect",
+        "body": "In Settings → Network & internet → Wi-Fi → Manage known networks, select your network and choose Forget. Reconnect with the correct password."
+      },
+      {
+        "heading": "Run network diagnostics",
+        "body": "Use Windows network troubleshooting from Settings. If the issue began after a driver update, check Device Manager and consider the manufacturer’s supported driver."
+      },
+      {
+        "heading": "Reset networking only later",
+        "body": "A network reset can remove saved adapters and settings. Use it only after simpler checks and make sure you know your Wi-Fi password and any work VPN requirements."
+      }
+    ],
+    "takeaway": "If several devices lose internet at once, investigate the router or service before changing Windows drivers."
+  },
+  {
+    "slug": "android-storage-almost-full",
+    "title": "How to Free Up Storage on an Android Phone",
+    "category": "Android",
+    "read_time": "6 min read",
+    "description": "Recover space safely without deleting photos, chats, or files you still need.",
+    "intro": "A nearly full Android phone may slow down, fail to install apps, or struggle to save photos. Check what is using space before removing anything.",
+    "steps": [
+      {
+        "heading": "Check storage usage",
+        "body": "Open Settings and look for Storage. Menu names differ by phone maker and Android version. Review which categories use the most space."
+      },
+      {
+        "heading": "Review large downloads",
+        "body": "Open your Files app and inspect Downloads and large files. Delete only files you recognize and no longer need. Back up important documents first."
+      },
+      {
+        "heading": "Clear an app cache carefully",
+        "body": "Settings → Apps → choose an app → Storage & cache → Clear cache may remove temporary files. Avoid Clear storage or Clear data unless you understand it can remove local settings, sign-ins, and offline content."
+      },
+      {
+        "heading": "Back up photos and videos",
+        "body": "Confirm photos are backed up to a service or computer before removing local copies. Verify the backup from another device or browser first."
+      },
+      {
+        "heading": "Remove unused apps",
+        "body": "Uninstall apps you no longer use and review offline downloads inside streaming, map, and music apps. Restart the phone and check storage again."
+      }
+    ],
+    "takeaway": "Clear cache is different from Clear storage. Back up important files before deleting data."
+  },
+  {
+    "slug": "android-app-keeps-crashing",
+    "title": "How to Fix an Android App That Keeps Crashing",
+    "category": "Android",
+    "read_time": "5 min read",
+    "description": "Try updates, a restart, cache cleanup, and other low-risk fixes for unstable apps.",
+    "intro": "An app may crash because of a temporary bug, an outdated version, low device storage, or corrupted temporary data. Try these steps in order.",
+    "steps": [
+      {
+        "heading": "Restart the phone",
+        "body": "Close the app and restart your device. Reopen the app to see whether the issue was temporary."
+      },
+      {
+        "heading": "Update the app",
+        "body": "Open Google Play and install available updates for the affected app. Also check for Android system updates."
+      },
+      {
+        "heading": "Check storage and permissions",
+        "body": "Free up storage if the device is nearly full. Open Settings → Apps → the app and check permissions relevant to its features."
+      },
+      {
+        "heading": "Clear the cache",
+        "body": "In the app’s storage settings, choose Clear cache if available. Avoid Clear data unless you have confirmed the app’s data is backed up."
+      },
+      {
+        "heading": "Reinstall if necessary",
+        "body": "Confirm login details and backup status before uninstalling. If many users are affected, check the app developer’s status or support page."
+      }
+    ],
+    "takeaway": "Before reinstalling, make sure app-only files or drafts are backed up."
+  },
+  {
+    "slug": "chrome-not-opening",
+    "title": "Google Chrome Won’t Open: Troubleshooting Steps",
+    "category": "Browsers",
+    "read_time": "5 min read",
+    "description": "Use safe checks to diagnose Chrome startup problems on a Windows computer.",
+    "intro": "If Chrome will not open, it may be stuck in the background, affected by an extension, or blocked by a damaged profile. Try the simplest checks first.",
+    "steps": [
+      {
+        "heading": "Check for a background process",
+        "body": "Restart the computer and try Chrome again. If it still does not open, use Task Manager to check whether Chrome processes remain stuck."
+      },
+      {
+        "heading": "Test another browser",
+        "body": "Open another browser to confirm your internet connection works. If other browsers also fail, troubleshoot the network or Windows rather than Chrome alone."
+      },
+      {
+        "heading": "Update or repair the installation",
+        "body": "Use Windows Settings → Apps to check Chrome’s installation. Download the installer only from Google’s official Chrome website if reinstalling is necessary."
+      },
+      {
+        "heading": "Consider extensions and profile data",
+        "body": "Back up important bookmarks and confirm sync status before making profile changes. An extension or profile issue may be involved."
+      },
+      {
+        "heading": "Check security alerts",
+        "body": "Review Windows Security notifications and recent software changes. Do not turn off protection permanently or download unofficial repair tools."
+      }
+    ],
+    "takeaway": "Use official Google downloads and back up bookmarks before removing profile data."
+  },
+  {
+    "slug": "uninstall-program-windows",
+    "title": "How to Uninstall a Program on Windows 10 and 11",
+    "category": "Software",
+    "read_time": "4 min read",
+    "description": "Remove unwanted desktop apps using Windows settings or the application’s own uninstaller.",
+    "intro": "Uninstalling through Windows is usually safer than deleting a program folder manually. Labels can vary by Windows edition and app type.",
+    "steps": [
+      {
+        "heading": "Use Settings",
+        "body": "Open Settings → Apps → Installed apps (Windows 11) or Apps & features (Windows 10). Find the application and choose Uninstall."
+      },
+      {
+        "heading": "Follow the app uninstaller",
+        "body": "Read prompts carefully. Some programs ask whether to keep preferences or local data. Back up files you want to retain."
+      },
+      {
+        "heading": "Use Control Panel for older software",
+        "body": "For some traditional desktop programs, open Control Panel → Programs → Programs and Features, select the program, and choose Uninstall or Change."
+      },
+      {
+        "heading": "Restart and verify",
+        "body": "Restart if requested. If an app fails to uninstall, use the publisher’s official support instructions rather than deleting registry entries or system folders."
+      }
+    ],
+    "takeaway": "Do not manually delete program folders as a substitute for uninstalling."
+  },
+  {
+    "slug": "take-screenshot-windows",
+    "title": "How to Take a Screenshot on Windows",
+    "category": "How-To",
+    "read_time": "4 min read",
+    "description": "Learn keyboard shortcuts and built-in tools for capturing a window, region, or full screen.",
+    "intro": "Windows includes several ways to capture your screen. Choose the method that fits whether you need a quick copy, a saved image, or part of the display.",
+    "steps": [
+      {
+        "heading": "Capture a selected area",
+        "body": "Press Windows + Shift + S to open the snipping overlay on supported Windows versions. Choose a capture mode."
+      },
+      {
+        "heading": "Capture the full screen to a file",
+        "body": "Press Windows + PrtScn on supported devices to save a screenshot automatically. Look in Pictures → Screenshots. Some laptops require Fn."
+      },
+      {
+        "heading": "Copy a window",
+        "body": "Use Alt + PrtScn on supported setups to copy the active window, then paste into Paint, a document, or a chat."
+      },
+      {
+        "heading": "Share safely",
+        "body": "Check screenshots for passwords, private messages, account numbers, or other sensitive information before sharing."
+      }
+    ],
+    "takeaway": "Review screenshots for private information before posting them publicly."
+  },
+  {
+    "slug": "protect-your-browser-privacy",
+    "title": "Simple Ways to Improve Browser Privacy",
+    "category": "Security",
+    "read_time": "6 min read",
+    "description": "Review browser permissions, extensions, and account security without installing questionable tools.",
+    "intro": "A few careful browser settings can reduce unwanted tracking and help protect accounts. Privacy controls vary by browser, so use official help for your version.",
+    "steps": [
+      {
+        "heading": "Review site permissions",
+        "body": "Check which websites can access location, camera, microphone, notifications, and pop-ups. Remove permissions you no longer need."
+      },
+      {
+        "heading": "Remove extensions you do not recognize",
+        "body": "Review installed extensions and remove ones you do not use or cannot verify. Install extensions only from the official store."
+      },
+      {
+        "heading": "Keep the browser updated",
+        "body": "Install updates from the browser’s built-in update mechanism. Updates often include security fixes."
+      },
+      {
+        "heading": "Strengthen important accounts",
+        "body": "Use unique passwords and enable multi-factor authentication where available. Be careful with unexpected sign-in links and attachments."
+      },
+      {
+        "heading": "Review shared devices",
+        "body": "On shared computers, sign out of accounts and avoid saving passwords in profiles other people can access."
+      }
+    ],
+    "takeaway": "Avoid privacy-cleaner downloads from unfamiliar sites; built-in settings are a safer start."
+  }
+]
